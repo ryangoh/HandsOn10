@@ -11,7 +11,7 @@ require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :domain, 'vertdeal.com'
-set :deploy_to, '/home/ryan/project/HandOn'
+set :deploy_to, '/home/ryan/project/HandOn10'
 set :repository, 'https://github.com/ryangoh/HandsOn10.git'
 set :branch, 'master'
 set :term_mode, nil
