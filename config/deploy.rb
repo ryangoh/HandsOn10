@@ -12,11 +12,11 @@ require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 
 set :domain, 'vertdeal.com'
 set :deploy_to, '/home/ryan/project/HandOn'
-set :repository, 'https://github.com/ryangoh/HandsOn10.git's
+set :repository, 'https://github.com/ryangoh/HandsOn10.git'
 set :branch, 'master'
 set :term_mode, nil
 set :rails_env, 'production'
-set :branch, 'mina'
+set :branch, 'master'
 set :db_name, 'handon10'
 
 # For system-wide RVM install.
